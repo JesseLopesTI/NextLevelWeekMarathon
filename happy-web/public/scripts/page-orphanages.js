@@ -1,4 +1,4 @@
-  const map = L.map('mapid').setView([-16.018171, -48.0601387], 14);
+  const map = L.map('mapid').setView([-27.222633, -49.6455874], 15);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
 
@@ -14,9 +14,9 @@
     className: 'map-popup',
     minWidth: 240,
     minHeight: 240
-  }).setContent('Associação de pais e<br> amigos da criança <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg" > </a>')
+  }).setContent('Lar das Meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg" > </a>')
 
   L
-    .marker([-16.018171, -48.0601387], { icon })
+    .marker([-27.222633, -49.6455874], { icon })
     .addTo(map)
     .bindPopup(popup)
