@@ -6,7 +6,7 @@ const options = {
   zoomControl: false
 }
 
-const map = L.map('mapid', options).setView([-16.018171, -48.0601387], 14);
+const map = L.map('mapid', options).setView([-27.222633, -49.6455874], 14);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
 
@@ -18,7 +18,7 @@ const icon = L.icon({
 })
 
 L
-  .marker([-16.018171, -48.0601387], { icon })
+  .marker([-27.222633, -49.6455874], { icon })
   .addTo(map)
 
 function selectImage(event) {
